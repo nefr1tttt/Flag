@@ -1,0 +1,143 @@
+@media (min-width: 576px) and (max-width: 768px){
+
+    .container{
+        max-width: 768px;
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    body{
+        background-color: #FAFAFA;
+    }
+
+    .main_navigation{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 20px;
+        width: 100%;
+    }
+
+    .header_search{
+        max-width: 768px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+
+    .search{
+        max-width: 768px;
+        margin-bottom: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;  
+    }
+
+
+    .main_navigation{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav_title{
+       
+    }
+
+    .main_section_cards a{
+        text-align: center;
+    }
+
+    .main_section_card{
+       display: block;
+       max-width: 568px;
+       width: 100%;
+    }
+
+    .main_section_cards{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 40px auto;
+    }
+
+    .main_section_cards h4{
+        display: flex;
+        justify-content: flex-start;
+        padding-left: 58px;
+        max-width: 768px;
+        width: 100%px;
+        height: 26px;
+        font-size: 18px;
+        line-height: 26px;
+        color: #111517;
+        /* margin: 10px auto; */
+    }
+
+    .main_section_cards p{
+        width: 200px;
+        padding: 10px;
+        height: 16px;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    /*inside cards*/
+
+
+    .img{
+        width: 320px;
+        height: 275px;
+        flex-direction: column;
+        margin-bottom: 150px;
+    }
+
+    .main_section_flag{
+        display: block;
+        margin: 30px auto;
+        padding: 30px;
+        max-width: 768px;
+        width: 100%;
+    }
+
+    .text{
+        display: block;
+        background-color: white;
+    }
+
+    .text p:nth-child(2){
+        margin-top: 20px;
+    }
+
+    .title h4{
+        display: block;
+        margin-left: 20px;
+
+    }
+
+    .footer{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .footer h4{
+        display: flex;
+        max-width: 768px;
+        width: 100%;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+    }
+
+    .footer span{
+        width: 96px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 28px;
+        color:#111517;
+        box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1049);
+    }
+}
